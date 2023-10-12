@@ -1,8 +1,5 @@
+import Main from '@/components/Main'
+
 export default function Home() {
-  const foo = 'bla'
-  return (
-    <>
-      <h1>{foo}</h1>
-    </>
-  )
+  return <Main />
 }
